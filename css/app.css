@@ -1,0 +1,187 @@
+body {
+    padding-top: 70px;
+    background: #222222;
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 28px;
+}
+.normal-size .col-md-4 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.navbar-default {
+    background-color: #21409A;
+    border-bottom: 2px solid #000000;
+}
+.panel-default {
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    min-height: 308px;
+}
+.panel-default .panel-head {
+    padding: 18px 23px 0;
+    width: 100%;
+    display: table;
+}
+
+.panel-default .panel-body {
+    padding-top: 0;
+    color: #AAAAAA;
+}
+
+.panel-default .panel-head .percent {
+    font-size: 40px;
+    font-weight: 500;
+    float: left;
+    line-height: 1;
+}
+
+.panel-default .panel-head .animated-cup {
+    float: left;
+    padding: 2px 4px;
+    margin-left: 5px;
+    width: 70px;
+}
+
+.panel-default .panel-head .total-info {
+    float: right;
+}
+
+.panel-default .panel-head .total-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.panel-default .panel-head .total-info ul li {
+    font-size: 16px;
+}
+
+.panel-default .panel-head .total-info ul .li-bold {
+    font-weight: 700;
+}
+
+
+/* DATA LIST */
+dl {
+    margin-bottom: 0;
+}
+
+dl dt {
+    float:left; 
+    font-weight: 500; 
+    font-size: 17px;
+    margin-right:10px; 
+    padding: 5px;  
+    width: 45px;
+    text-align: right;
+}
+
+dl dd {
+    margin:2px 0; 
+    padding:5px 0;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+ul.navbar-datahora {
+    padding: 5px 10px 0;
+}
+ul.navbar-datahora li {
+    text-align: right;
+}
+ul.navbar-datahora li:nth-child(2) {
+    font-weight: 500;
+}
+
+/* WATER */
+
+.agua{
+    float:left;
+    position: absolute;
+    width: 100%;;
+}
+.agua1{
+    left: 20%;
+}
+.agua2{
+    left: -80%;
+}
+#copo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.cup-container {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    background: #333333;
+}
+
+
+
+/* Mobile */
+
+.small-panel {
+    
+}
+.small-panel .percent {
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.small-panel .animated-cup .cup-container {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.small-panel .total-info {
+    /*float: right;*/
+    color: #ffffff;
+}
+
+.small-panel .total-info ul {
+    list-style: none;
+    padding: 25px 0 0 0;
+    text-align: center;
+}
+
+.small-panel .total-info ul li {
+    font-size: 16px;
+    font-size: 20px;
+}
+
+.small-panel .total-info ul .li-bold {
+    font-weight: 700;
+}
+
+.panel-default-sm {
+    min-height: 274px;
+}
+
+.small-size {
+    padding: 0 5px;
+}
+
+.small-size .col-xs-6 {
+    padding-right: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.small-size .col-xs-6 .panel {
+    margin-bottom: 10px;
+}
